@@ -91,7 +91,7 @@ function EmployeePage() {
 
   return (
     <div className="container">
-      <h2 className="my-4">Add Employee</h2>
+      <h2 className="my-4">Update Employee</h2>
       <Form onSubmit={handleSubmit}>
         <Form.Group controlId="formName">
           <Form.Label>Name</Form.Label>
