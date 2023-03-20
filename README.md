@@ -31,11 +31,11 @@ This functionality allows the user to delete an existing employee from the syste
 To run this application, follow these steps:
 
 1. Navigate to the employee_management root folder in your terminal or command prompt. <br />
-2. Run npm install to install the necessary dependencies for the React app. <br />
-3. Run npm start to start the React app on localhost:3000. <br />
-4. In another terminal or command prompt, navigate to the employee_management/server folder. <br />
-5. Run npm install to install the necessary dependencies for the server. <br />
-6. Run ./node_modules/.bin/tsc --project to compile the TypeScript files according to the specified tsconfig.json. <br />
-7. Run node index.js to start the server on localhost:8080. <br />
+2. Run `npm install` to install the necessary dependencies for the React app. <br />
+3. Run `npm start` to start the React app on `localhost:3000`. <br />
+4. In another terminal or command prompt, navigate to the `employee_management/server` folder. <br />
+5. Run `npm install` to install the necessary dependencies for the server. <br />
+6. Run `./node_modules/.bin/tsc --project .` to compile the TypeScript files according to the specified `tsconfig.json`. <br />
+7. Run `node index.js` to start the server on `localhost:8080`. <br />
 
-Once you've completed these steps, you should be able to access the employee management tool by visiting localhost:3000 in your web browser. From there, you can add, update, and delete employees as needed.
+Once you've completed these steps, you should be able to access the employee management tool by visiting `localhost:3000` in your web browser. From there, you can add, update, and delete employees as needed.
